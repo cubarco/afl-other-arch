@@ -130,7 +130,7 @@ patch -p1 <../patches/cpu-exec.diff || exit 1
 patch -p1 <../patches/syscall.diff || exit 1
 
 echo "[+] Patching done."
-sleep 20
+echo 123>>/tmp/1
 
 CPU_TARGETS=$@
 
